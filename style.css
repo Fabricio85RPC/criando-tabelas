@@ -1,0 +1,35 @@
+@charset 
+body{
+    background-image: url('imagens/plano\ de\ fundo/');
+}
+header{
+
+}
+table{
+   
+    width: 300px;
+    border-collapse: collapse;
+}
+.linha1{
+    background-color: rgb(19, 3, 127);
+    color: white;
+}
+.linha2{
+    background-color: rgb(181, 99, 0);
+    color: white;
+}
+.linha3{
+    background-color: rgb(142, 253, 216);
+}
+.linha4{
+    background-image: url(imagens/futuristic-azul.webp);
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: white;
+}
+td{
+    border: solid 1px black;
+    padding: 5px;
+}    
+   
+

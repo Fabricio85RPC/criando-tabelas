@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Curso HTML/CSS</title>
+</head>
+<body>
+    <header>
+        <h1>Tabela em HTML</h1>
+        <p>
+            Aprendendo a criar tabelas em html/css. 
+        </p> 
+    </header>
+
+    <main>
+        <h1>Definir uma tabela HTML</h1>
+        <p>Uma tabela em HTML consiste em células de tabela dentro de linhas e colunas.</p>
+        <p>Cada célula da tabela é definida por um <strong>tag</strong> <mark>td</mark> </p>
+        <p>Cada linha da tabela começa com uma <strong>tag</strong> <mark>tr</mark>.Você pode ter quantas linhas quiser em uma tabela.</p>
+        <p>Às vezes, você deseja que suas células sejam células de cabeçalho de tabela. Nesses casos, use a <strong>tag</strong> <mark>th</mark> em vez da <mark>td</mark></p>
+        <div>
+            <img src="imagens/print-tabela.png" alt="">
+            <table>
+                <tr>
+                  <th>Person 1</th>
+                  <th>Person 2</th>
+                  <th>Person 3</th>
+                </tr>
+                <tr>
+                  <td>Emil</td>
+                  <td>Tobias</td>
+                  <td>Linus</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>14</td>
+                  <td>10</td>
+                </tr>
+              </table>
+        </div>
+
+        <div class="css">
+            <h1>Propriedade de layout de tabela CSS</h1>
+            <p>A <mark>table-layout</mark> propriedade define o algoritmo usado para dispor as células, linhas e colunas da tabela.</p>
+            <p><strong>Dica:</strong> O principal benefício do <mark>table-layout: fixed;</mark> é que a tabela renderiza muito mais rápido. Em tabelas grandes, os usuários não verão nenhuma parte da tabela até que o navegador tenha processado toda a tabela. Portanto, se você usar table-layout: fixed, os usuários verão o topo da tabela enquanto o navegador carrega e renderiza o resto da tabela. Isso dá a impressão de que a página carrega muito mais rápido!</p>
+            <img src="imagens/print table-layout.png" alt="">
+            <table>
+                <tr class="linha1">
+                    <td>celula a1</td>
+                    <td>celula b1</td>
+                    <td>celula c1</td>
+                    <td>celula d1</td>
+                </tr>
+                <tr class="linha2">
+                    <td>celula a2</td>
+                    <td>celula b2</td>
+                    <td>celula c2</td>
+                    <td>celula d2</td>
+                </tr>
+                <tr class="linha3">
+                    <td>celula a3</td>
+                    <td>celula b3</td>
+                    <td>celula c3</td>
+                    <td>celula d3</td>
+                </tr>
+                <tr class="linha4">
+                    
+                    <td>celula a4</td>
+                    <td>celula b4</td>
+                    <td>celula c4</td>
+                    <td>celula d4</td>
+                </tr>
+
+            </table>
+
+            
+        </div>
+
+    </main>
+
+</body>
+</html>
