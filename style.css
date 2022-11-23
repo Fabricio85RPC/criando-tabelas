@@ -1,9 +1,30 @@
-@charset 
+ 
 body{
-    background-image: url('imagens/plano\ de\ fundo/');
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    background-image: url(imagens/fundos/wallpaper006.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 header{
-
+    margin: -21px 0px -5px 0px ;
+    color: white;
+    text-align: center;
+    background-image: url(imagens/fundos/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1{
+    padding-top: 50px;
+}
+header p{
+    padding-bottom: 30px;
+}
+main{
+    padding: 4px;
+    
 }
 table{
    
@@ -22,14 +43,20 @@ table{
     background-color: rgb(142, 253, 216);
 }
 .linha4{
-    background-image: url(imagens/futuristic-azul.webp);
+    background-image: url(imagens/fundos/futuristic-azul.webp);
     background-repeat: no-repeat;
     background-position: right center;
     color: white;
 }
-td{
+.numero{
+    text-align: right;
+}
+td, th{
     border: solid 1px black;
     padding: 5px;
-}    
+} 
+thead, tfoot{
+    background-color: gray;
+}   
    
 
