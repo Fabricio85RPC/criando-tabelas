@@ -8,6 +8,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
 header{
     margin: -21px 0px -5px 0px ;
     color: white;
@@ -22,41 +23,95 @@ header h1{
 header p{
     padding-bottom: 30px;
 }
+
 main{
-    padding: 4px;
-    
+    padding: 4px;  
+}
+main iframe{
+    position: relative;
 }
 table{
-   
-    width: 300px;
+    max-width: 500px;
+    min-width: 400px;
     border-collapse: collapse;
+    position: relative;
 }
+
+caption{
+    background-color: rgb(41, 68, 68);
+    color: white;
+    padding: 5px 0 5px 0;
+}
+
 .linha1{
     background-color: rgb(19, 3, 127);
     color: white;
 }
+
 .linha2{
     background-color: rgb(181, 99, 0);
     color: white;
 }
+
 .linha3{
     background-color: rgb(142, 253, 216);
 }
+
 .linha4{
     background-image: url(imagens/fundos/futuristic-azul.webp);
     background-repeat: no-repeat;
     background-position: right center;
     color: white;
 }
+
 .numero{
     text-align: right;
 }
+
 td, th{
     border: solid 1px black;
     padding: 5px;
 } 
+
+tbody tr:nth-child(2n){
+    background-color: rgb(180, 180, 180);
+}
+
 thead, tfoot{
-    background-color: gray;
+    background-color: rgb(116, 115, 115);
 }   
+thead{
+    position: sticky;
+    top: -1px;
+    background-color: darkgrey;
+}
+
+
+
+
+
+
+nav{
+    text-align: center;
+    margin: 5px 0 15px 0;
+    padding: 3px;
+}
+nav a{ 
+    text-decoration: none;
+    color: rgb(97, 96, 96)
+}
+nav a:hover{
+    font-size: 17px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 1px 0 1px 0;
+    background-image: url(imagens/fundos/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
    
 
