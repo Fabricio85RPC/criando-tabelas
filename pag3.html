@@ -9,13 +9,32 @@
 <style>
     body{
         font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-color: white;
+        background-image: url(imagens/fundos/wallpaper006.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
-    header{
+    
+header{
+    margin: -21px 0px -5px 0px ;
+    color: white;
     text-align: center;
-    }
+    background-image: url(imagens/fundos/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1{
+    padding-top: 50px;
+}
+header p{
+    padding-bottom: 30px;
+}
 
-    main table{
+    table{
         border-collapse: collapse;
         width: 300px;  
     }
@@ -28,6 +47,29 @@
         text-align: center;
         padding: 2px;
     }
+
+    nav{
+    text-align: center;
+    margin: 5px 0 15px 0;
+    padding: 3px;
+}
+nav a{ 
+    text-decoration: none;
+    color: rgb(97, 96, 96)
+}
+nav a:hover{
+    font-size: 17px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 1px 0 1px 0;
+    background-image: url(imagens/fundos/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
 </style>
 <body>
@@ -48,29 +90,105 @@
                 <tr>
                     <td>A</td>
                     <td>B</td>
-                    <td>C</td>
-                    <td>D</td>
+                    <td colspan="2">C</td>
+                    
                 </tr>
                 <tr>
-                    <td>A</td>
-                    <td>B</td>
-                    <td>C</td>
-                    <td>D</td>
+                    
+                    <td rowspan="3">E</td>
+                    <td>F</td>
+                    <td colspan="2">G</td>
                 </tr>
                 <tr>
-                    <td>A</td>
-                    <td>B</td>
-                    <td>C</td>
-                    <td>D</td>
+                    <td>J</td>
+                    <td>K</td>
+                    <td rowspan="3">L</td>
+                
                 </tr>
                 <tr>
-                    <td>A</td>
-                    <td>B</td>
-                    <td>C</td>
-                    <td>D</td>
+                    
+                    <td>N</td>
+                    <td>O</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    <p>Para<mark> C e G </mark>utilizar coluna 3 e coluna 4 exclui o td de <mark>D</mark> e <mark>H</mark>  coloquei dentro da tag de<mark> C e G</mark><strong> ( td colspan="2").</strong> </p>
+    <p>Para <mark>E</mark> utilizar 3 linhas e <mark>L</mark> utilizar 2 linhas exclui as letras<mark> I M</mark> e <mark>P</mark> e coloquei dentro da tag de <mark>E </mark> e <mark>L</mark> <strong>(td rowspan=" "</strong>.</p>
+    <h2>Exercicio 1</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td rowspan="2">3</td>
+                    <td>4</td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td>5</td>
+                    <td>6</td>
+                    
+                    <td>7</td>
+                </tr>
+                <tr>
+                    
+                    <td colspan="3">8</td>
+                    
+                    
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">10</td>
+                    <td colspan="2">11</td>
+                    
+                    <TD>12</TD>
+                </tr>
+                <tr>
+                    
+                    <td>13</td>
+                    <td>14</td>
+                    <TD>15</TD>
+                </tr>
+            </tbody>
+        </table>
+
+    <h2>Exercicio 2</h2> 
+        <table>
+            <tbody>
+                <tr>
+                  <td colspan="4">A</td> 
+                  <td rowspan="4">B</td>
+                </tr> 
+                <tr>
+                  <td rowspan="4">C</td> 
+                  <td>D</td>
+                  <td>E</td>
+                  <td>F</td>
+                  
+                </tr>
+                <tr>
+                  <td>G</td>
+                  <td>H</td>
+                  <td>I</td>
+                    
+                </tr>
+                <tr> 
+                  <td>J</td>
+                  <td>L</td>
+                  <td>M</td>
+                   
+                </tr>
+                <tr> 
+                  <td colspan="4">N</td>
                 </tr>
             </tbody>
         </table>
     </main>
+    <nav>
+        <a href="pag2.html">Pagina anterior</a>
+    </nav>
+    <footer>Site criado por Fabricio Ribeiro</footer>
 </body>
 </html>
