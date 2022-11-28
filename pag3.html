@@ -34,21 +34,25 @@ header p{
     padding-bottom: 30px;
 }
 
-    table{
+table{
         border-collapse: collapse;
         width: 300px;  
-    }
-    caption{
+}
+caption{
         background-color: darkgray;
         padding: 1px;
-    }
-    td, th{
+}
+td, th{
         border:solid 1px black;
         text-align: center;
         padding: 2px;
-    }
+}
 
-    nav{
+#resp{
+    overflow-x: auto;
+}
+
+nav{
     text-align: center;
     margin: 5px 0 15px 0;
     padding: 3px;
@@ -155,41 +159,43 @@ footer{
         </table>
 
     <h2>Exercicio 2</h2> 
-        <table>
-            <tbody>
-                <tr>
-                  <td colspan="4">A</td> 
-                  <td rowspan="4">B</td>
-                </tr> 
-                <tr>
-                  <td rowspan="4">C</td> 
-                  <td>D</td>
-                  <td>E</td>
-                  <td>F</td>
-                  
-                </tr>
-                <tr>
-                  <td>G</td>
-                  <td>H</td>
-                  <td>I</td>
-                    
-                </tr>
-                <tr> 
-                  <td>J</td>
-                  <td>L</td>
-                  <td>M</td>
-                   
-                </tr>
-                <tr> 
-                  <td colspan="4">N</td>
-                </tr>
-            </tbody>
-        </table>
+        <div id="resp">
+            <table>
+                <tbody>
+                    <tr>
+                      <td colspan="4">A</td>
+                      <td rowspan="4">B</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="4">C</td>
+                      <td>D</td>
+                      <td>E</td>
+                      <td>F</td>
+            
+                    </tr>
+                    <tr>
+                      <td>G</td>
+                      <td>H</td>
+                      <td>I</td>
+            
+                    </tr>
+                    <tr>
+                      <td>J</td>
+                      <td>L</td>
+                      <td>M</td>
+            
+                    </tr>
+                    <tr>
+                      <td colspan="4">N</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
    
     </main>
     <nav>
         <a href="pag2.html">Pagina anterior</a> / 
-        <a href="">Proxima Pagina</a>
+        <a href="pag4.html">Proxima Pagina</a>
     </nav>
     <footer>Site criado por Fabricio Ribeiro</footer>
 </body>
