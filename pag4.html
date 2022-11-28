@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML/CSS</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+        width: 400px;
+        table-layout: fixed;
+
+    } 
+    th{
+        background-color: rgb(73, 73, 73);
+        color: white;
+    }   
+    tr, th, td{
+        text-align: center;
+        border: solid 1px black;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+
+    .total{text-align: left;}
+
+    .area{padding: 0; 
+          font-size: 15px;  
+    }
+
+    p{
+        border-bottom: solid 1px black;
+    }
+    nav{
+    text-align: center;
+    margin: 5px 0 15px 0;
+    padding: 7px;
+    }
+    nav a{ 
+    text-decoration: none;
+    color: rgb(97, 96, 96)
+    }
+    nav a:hover{
+    font-size: 17px;
+    }
+</style>
+<body>
+    <header>
+    <h1>Exercicio 3</h1>
+    <p>Projeto de Tabela do curso em Video</p>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <th  rowspan="2" scope="col">Área</th>
+                <th colspan="2" rowspan="2" scope="col">Disciplina </th>
+                    <th colspan="2" scope="colgroup"> Notas</th>
+                <th  rowspan="2" scope="col">Media</th>
+                <tr>
+                    <th scope="col">nota 1</th>
+                    <th scope="col">nota 2</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td colspan="1" rowspan="4" class="area"  scope="col"><strong>Exatas</strong></td>
+                    <td colspan="2" scope="col">Matematica</td>
+                    <td scope="col">0.0</td>
+                    <td scope="col">0.0</td>
+                    <td scope="col">0.0</td>
+                    
+                </tr>
+                <tr>
+                   
+                    <td colspan="2" scope="col">Física</td>
+                    <td  scope="col">0.0</td>
+                    <td  scope="col">0.0</td>
+                    <td  scope="col">0.0</td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td colspan="2" scope="col">Química</td>
+                    <td scope="col">0.0</td>
+                    <td scope="col">0.0</td>
+                    <td scope="col">0.0</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2" scope="col">Biologia</td>
+                    <td scope="col">0.0</td>
+                    <td scope="col">0.0</td>
+                    <td scope="col">0.0</td> 
+                </tr>
+                <th colspan="5" class="total" scope="col">Média de Exatas</th>
+                <th scope="col">0.0</th>
+                <tr>
+                    <td rowspan="2" class="area" scope="col"><strong>Humanas</strong></td>
+                    <td colspan="2" scope="col">Historia</td>
+                    <td scope="col">0.0</td>
+                    <td scope="col">0.0</td>
+                    <td scope="col">0.0</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <th colspan="5" class="total" scope="col">Média de Humanas</th>
+                <th scope="col">0.0</th>
+            </tbody>
+        </table>
+        <p></p>
+    </main> 
+    <nav>
+        <a href="pag3.html">Pagina Anterior</a>
+    </nav>
+</body>
+</html>
